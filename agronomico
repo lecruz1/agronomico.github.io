@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Agropecuaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tienda Agropecuaria</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos...">
+                <button>Buscar</button>
+            </div>
+            <div class="account-links">
+                <a href="#">Iniciar sesión</a>
+                <a href="#">Cuenta</a>
+                <a href="#">Pedidos</a>
+                <a href="#">Lista de deseos</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="banner">
+            <h2>Bienvenido a nuestra tienda de productos agropecuarios</h2>
+            <p>Encuentra todo lo que necesitas para tu campo y agricultura</p>
+            <a href="#" class="btn">Ver productos</a>
+        </section>
+
+        <section class="productos">
+            <div class="container">
+                <h2>Nuestros Productos Destacados</h2>
+                <div class="producto">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>Precio: $XX.XX</p>
+                    <a href="#" class="btn">Comprar ahora</a>
+                </div>
+                <div class="producto">
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>Precio: $XX.XX</p>
+                    <a href="#" class="btn">Comprar ahora</a>
+                </div>
+                <!-- Agrega más productos aquí -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tienda Agropecuaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
